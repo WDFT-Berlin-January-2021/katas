@@ -25,8 +25,7 @@ const count = s => {
 const count = s => {
     const obj = {}
     s.split('').forEach(char => {
-        s.split(char).length - 1
-
+        obj[char] = s.split(char).length - 1
     })
 }
 
